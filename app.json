@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tet",
-    "slug": "tet",
+    "name": "Flowstate",
+    "slug": "Flowstate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.xute.flowstate"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8cbaf8ab-45d7-45e8-9716-30db3f4e3130"
+      }
     }
   }
 }

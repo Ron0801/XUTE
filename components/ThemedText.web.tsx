@@ -36,23 +36,23 @@ export function ThemedText({
 
 const styles = StyleSheet.create({
   default: {
-    fontSize: 14,
+    fontSize: 16,
     fontFamily: 'Montserrat',
   },
   big: {
-    fontSize: 26,
+    fontSize: 28,
     fontFamily: 'Anton',
   },
   title: {
-    fontSize: 22,
+    fontSize: 24,
     fontFamily: 'Anton',
   },
   subtitle: {
-    fontSize: 14,
+    fontSize: 16,
     fontFamily: 'Anton',
   },
   link: {
-    fontSize: 12,
+    fontSize: 14,
     color: '#8075FF',
   },
 });
